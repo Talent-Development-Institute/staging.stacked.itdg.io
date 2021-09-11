@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StackEd Login</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Last step!</h2>
+                        <p class="description">Let's create a student ID as your first credential! Just fill in the attributes as they are displayed on your current student ID</p>
+                        <form method="POST" class="register-form" id="register-form">
+
+                            <div class="form-group">
+                                <label for="firstname"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="firstname" id="firstname" placeholder="First Name"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastname"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="lastname" id="lastname" placeholder="Last name"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="organisation"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="organisation" id="organisation" placeholder="Institute/Place of Study"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="expirydate"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="expirydate" id="expirydate" placeholder="Expiry Date (as shown on ID card)"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="studentid"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="studentid" id="studentid" placeholder="Your Student ID Number"/>
+                            </div>
+
+                            <div class="form-group form-button">
+                                <a href="/sign-with-secret.html" type="submit" name="signup" id="signup" class="form-submit" value="Register">Next</a>
+                                <!-- <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/> -->
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <div class="signup-image-link">Step 2 of 3</div>
+                        <!-- <a href="index.html" class="signup-image-link">I am already member</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
