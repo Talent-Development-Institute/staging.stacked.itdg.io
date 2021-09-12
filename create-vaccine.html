@@ -360,41 +360,61 @@
 
                <!-- Begin Page Content -->
                <div class="container-fluid">
-                    <div class="container">
+                <div class="container">
 
-                        <div class="card o-hidden border-0 shadow-lg my-5">
-                            <div class="card-body p-0">
-                                <!-- Nested Row within Card Body -->
-                                <div class="row">
-                                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-                                    <div class="col-lg-7">
-                                        <div class="p-5">
-                                            <div class="text-center">
-                                                <h1 class="h4 text-gray-900 mb-4">Sign</h1>
-                                            </div>
-                                            <p>Enter your secret to sign this self declaration and create your credential</p>
-                                            <form class="user">
-                                                <div class="form-group">
-                                                        <input type="text" class="form-control form-control-user"
-                                                            id="exampleInputCreateSecret" placeholder="Secret">
-                                                </div>
-                                                <a href="create-success-forwarded.html" class="btn btn-primary btn-user btn-block">
-                                                    Finish
-                                                </a>
-                                            </form>
-                                            <hr>
-                                            <div class="text-center">
-                                                <!-- <a class="small" href="forgot-password.html">Forgot Password?</a> -->
-                                                <p>Step 2 of 2</p>
-                                            </div>
-                                            <!-- <div class="text-center">
-                                                <a class="small" href="login.html">Already have an account? Login!</a>
-                                            </div> -->
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row">
+                                <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                                <div class="col-lg-7">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <h1 class="h4 text-gray-900 mb-4">Vaccination Record</h1>
                                         </div>
+                                        <p>A vaccination record proves that you have had a specific vaccine. Generally the medical clinic or facility that administered the vaccine will provide you a receipt or record of your vaccination.</p>
+                                        <form class="user">
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                                        placeholder="First Name">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                                        placeholder="Last Name">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-user" id="exampleInputOrganisation"
+                                                    placeholder="Institute / Place of Study">
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                                    <input type="text" class="form-control form-control-user"
+                                                        id="exampleRepeatStudentID" placeholder="StudentID">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input type="date" class="form-control form-control-user"
+                                                        id="exampleInputExpiryDate" placeholder="Expiry Date of ID">
+                                                </div>                                    
+                                            </div>
+                                            <a href="create-sign.html" class="btn btn-primary btn-user btn-block">
+                                                Next
+                                            </a>
+                                        </form>
+                                        <hr>
+                                        <div class="text-center">
+                                            <!-- <a class="small" href="forgot-password.html">Forgot Password?</a> -->
+                                            <p>Step 1 of 2</p>
+                                        </div>
+                                        <!-- <div class="text-center">
+                                            <a class="small" href="login.html">Already have an account? Login!</a>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
             
 
                 <!-- Page Heading -->
@@ -471,7 +491,7 @@
                             </div>
                         </div>
                     </div> -->
-                <!-- </div> -->
+                </div>
 
             <!-- /.container-fluid -->
 
